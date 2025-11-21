@@ -1,0 +1,79 @@
+.DS_Store
+
+.AppleDouble
+.LSOverride
+
+*.py[cod]
+*$py.class
+
+# AI
+.claude/
+
+# C extensions
+*.so
+
+# Cache
+cached_downloads/
+.cache
+.mypy_cache/
+.ruff_cache/
+__pycache__/
+.pytest_cache/
+pytest-cache-files-*/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Python virtual environment
+.venv/
+venv/
+
+# pycharm
+.idea/
+
+# Temp
+*.tmp
+*.temp
+
+# VS Code
+.vscode
+
+*.manifest
+*.spec
+
+pip-log.txt
+pip-delete-this-directory.txt
+
+.tox/
+
+/doc/_autosummary
+
+.coverage
+.coverage.*
+
+/doc/diffs
+/doc/autoapi
+
+logs/
+*.log
+
+site/
+
+# Rust
+target/

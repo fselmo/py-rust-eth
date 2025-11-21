@@ -1,0 +1,23 @@
+[package]
+name = "rust-pyspec-utils"
+version = "0.1.0"
+authors = ["Felipe Selmo <fselmo2@gmail.com>"]
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/fselmo/rust-pyspec-utils"
+description = "Rust acceleration library for Ethereum execution and consensus specs"
+
+[lib]
+name = "rust_pyspec_utils"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "^0.22.0", features = ["extension-module"] }
+
+# For state root computation and Ethereum primitives
+alloy-trie = "0.9.1"
+alloy-rlp = "0.3.12"
+alloy-primitives = "1.4.1"
+
+# Additional utilities
+hex = "0.4"
